@@ -1,5 +1,8 @@
 /* main ==================================== */
 /* Kintamieji */
+/* Failu importai */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 /* reset ==================================== */
 * {
   box-sizing: border-box;
@@ -8,7 +11,7 @@
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #dbdbdb;
+  background-color: #EEEEEE;
 }
 
 a {
@@ -32,10 +35,57 @@ p {
 
 /* common ==================================== */
 .container {
-  max-width: 1000px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
+/* Header start ============== */
+body {
+  /* Light 1 */
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  padding-bottom: 1000px;
+}
+
+.header {
+  background-color: #fff;
+  top: 0;
+}
+.header .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  padding: 1rem 0;
+}
+
+.burger {
+  color: #999999;
+  height: 24px;
+  width: 24px;
+}
+
+.main-nav__item {
+  display: none;
+}
+.main-nav__item:nth-child(4) {
+  color: #ff3998;
+}
+
+/* Header end ============== */
 /* Bottom responsive import ==================================== */
-/* responsive ==================================== *//*# sourceMappingURL=main.css.map */
+@media screen and (min-width: 428px) {
+  .main-nav__item {
+    display: inline-block;
+    padding: 0.5em 1em;
+  }
+
+  .burger {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

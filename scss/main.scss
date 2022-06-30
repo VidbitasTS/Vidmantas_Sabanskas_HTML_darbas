@@ -3,9 +3,56 @@
 
 /* Kintamieji */
 
+
+/* Failu importai */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 @import 'reset';
 @import 'common';
 
-/* Bottom responsive import ==================================== */
+/* Header start ============== */
+
+body {
+    /* Light 1 */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    padding-bottom: 1000px;
+}
+
+.header {
+    background-color: #fff;
+    top: 0;
+    .container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    display: inline-block;
+    padding: 1rem 0;
+}
+
+.burger {
+    color: #999999;
+    height: 24px;
+    width: 24px;
+}
+
+.main-nav__item {
+    display: none;
+    &:nth-child(4) {
+        color: #ff3998
+    }
+}
+
+// .main-nav__item:nth-child(4) {
+//     color: #ff3998
+// }
+
+/* Header end ============== */
 
 @import 'responsive';
