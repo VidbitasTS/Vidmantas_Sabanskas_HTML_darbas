@@ -10,16 +10,13 @@
   font-size: 16px;
 }
 
-html {
-  background-color: white;
-}
-
 body {
   margin: 0;
   background-color: white;
   font-family: "Inter", sans-serif;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
   border-radius: 16px;
+  padding-bottom: 1000px;
 }
 
 a {
@@ -51,17 +48,13 @@ p {
 }
 
 /* Header start ============== */
-body {
-  /* Light 1 */
-  padding-bottom: 1000px;
-}
-
-.container .header {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 28px;
+  padding-bottom: 150px;
 }
 
 .logo {
@@ -89,33 +82,30 @@ body {
 }
 
 /* Hero start ============== */
-.container .hero {
+.hero {
   display: flex;
   flex-direction: auto;
   justify-content: space-between;
   -moz-column-gap: 0px;
        column-gap: 0px;
+  padding-bottom: 150px;
 }
-.container .hero .left {
-  flex-basis: 50%;
-}
-.container .hero .left .subtitle {
+.hero .left .subtitle {
   color: pink;
   font-weight: 700;
   font-size: 16px;
 }
-.container .hero .left .title {
-  color: blue;
+.hero .left .title {
   font-weight: 900;
   font-size: 48px;
 }
-.container .hero .left .text {
+.hero .left .text {
   color: #555555;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
 }
-.container .hero .left .btn {
+.hero .left .btn {
   color: #111111;
   font-weight: 600;
   font-size: 20px;
@@ -125,24 +115,26 @@ body {
   border-width: 2px;
   background-color: #fff;
 }
-.container .hero .right {
-  flex-basis: 50%;
+.hero .right {
+  position: absolute;
+  left: 80%;
+  transform: translate(-80%, 0);
 }
 
 /* Hero end ============== */
 /* Upsell start ============== */
-.container .upsell {
+.upsell {
   background: url("../img/background.svg") no-repeat;
   height: 326px;
   /* Upsell end ============== */
 }
-.container .upsell h2 {
+.upsell h2 {
   font-weight: 500;
   font-size: 40px;
   padding-left: 2rem;
   padding-top: 2rem;
 }
-.container .upsell p {
+.upsell p {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -166,6 +158,5 @@ body {
 
   .hero .container .left .title {
     font-weight: 900;
-    color: black;
   }
 }/*# sourceMappingURL=main.css.map */
