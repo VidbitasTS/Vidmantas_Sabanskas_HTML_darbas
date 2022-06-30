@@ -1,126 +1,150 @@
-            /* Main ==================================== */
-        /* Kintamieji */
-        /* Failu importai */
-        
-        @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-        @import 'reset';
-        @import 'common';
-        /* Header start ============== */
-        
-        body {
-            /* Light 1 */
-            // background: #FFFFFF;
-            padding-bottom: 1000px;
-        }
-        
-        .header {
-            // background-color: green;
-            // top: 0;
-            // left: 80px;
-            // top: 70px;
-            // height: 36px;
-            .container {
-                // background-color: red;
-                // align-items: center;
-                // display: flex;
-                // justify-content: space-between;
-                // padding-top: 80px;
-                // padding-left: 70px;
-                // left: 80px;
-                // top: 70px;
-                // height: 36px;
-                display: flex;
-                flex-direction: row;
-                // justify-content: flex-end;
-                justify-content: space-between;
-                align-items: center;
-                // padding: 0px;
-                gap: 28px;
-            }
-        }
-        
-        .logo {
-            display: inline-block;
-            padding: 1rem 0;
-        }
-        
-        .burger {
-            color: #999999;
-            height: 22px;
-            width: 24px;
-        }
-        
-        .main-nav {
-            display: inline-block;
-            right: 80px;
-            left: 100px;
-        }
-        
-        .main-nav__item {
-            display: none;
-            &:nth-child(4) {
-                color: #ff3998
-            }
-        }
-        /* Hero start ============== */
-        
-        .hero {
-            .container {
-                border: 1px solid red;
-                display: flex;
-                flex-direction: auto;
-                justify-content: space-between;
-                // align-items: center;
-                // justify-content: center;
-                column-gap: 0px;
-                .left {
-                    flex-basis: 50%;
-                    .subtitle {
-                        color: pink;
-                        font-weight: 700;
-                        font-size: 16px;
-                    }
-                    .title {
-                        color: blue;
-                        font-weight: 900;
-                        font-size: 48px;
-                    }
-                    .text {
-                        font-weight: 400;
-                        font-size: 20px;
-                        line-height: 30px;
-                        color: #555555
+                /* Main ==================================== */
+                /* Kintamieji */
+                /* Failu importai */
+                
+                @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+                @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+                @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+                @import 'reset';
+                @import 'common';
+                /* Header start ============== */
+                
+                body {
+                    /* Light 1 */
+                    // background: #FFFFFF;
+                    padding-bottom: 1000px;
+                }
+                
+                .container {
+                    // background-color: green;
+                    // top: 0;
+                    // left: 80px;
+                    // top: 70px;
+                    // height: 36px;
+                    .header {
+                        // background-color: red;
+                        // align-items: center;
+                        // display: flex;
+                        // justify-content: space-between;
+                        // padding-top: 80px;
+                        // padding-left: 70px;
+                        // left: 80px;
+                        // top: 70px;
+                        // height: 36px;
+                        display: flex;
+                        flex-direction: row;
+                        // justify-content: flex-end;
+                        justify-content: space-between;
+                        align-items: center;
+                        // padding: 0px;
+                        gap: 28px;
                     }
                 }
-                .right {
-                    flex-basis: 50%;
-                    // height: 519px;
-                    // width: 354px;
+                
+                .logo {
+                    display: inline-block;
+                    padding: 1rem 0;
                 }
-            }
-        }
-        /* Hero end ============== */
-        /* Upsell start ============== */
-        
-        .upsell {
-            border: 1px solid black;
-            // background: url('../img/background.svg')
-            background: url('../img/background.svg') no-repeat center center fixed;
-            ;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: left top;
-            // height: 326px;
-            // width: auto;
-            // max-width: 100%;
-            // max-height: 100%
-            /* Upsell end ============== */
-            // .main-nav__item:nth-child(4) {
-            //     color: #ff3998
-            // }
-            /* Header end ============== */
-            /* Hero start ============== */
-            /* Hero end ============== */
-            @import 'responsive';
+                
+                .burger {
+                    color: #999999;
+                    height: 22px;
+                    width: 24px;
+                }
+                
+                .main-nav {
+                    display: inline-block;
+                    right: 80px;
+                    left: 100px;
+                }
+                
+                .main-nav__item {
+                    display: none;
+                    &:nth-child(4) {
+                        color: #ff3998
+                    }
+                }
+                /* Hero start ============== */
+                
+                .container {
+                    .hero {
+                        // border: 1px solid red;
+                        display: flex;
+                        flex-direction: auto;
+                        justify-content: space-between;
+                        // align-items: center;
+                        // justify-content: center;
+                        column-gap: 0px;
+                        .left {
+                            flex-basis: 50%;
+                            .subtitle {
+                                color: pink;
+                                font-weight: 700;
+                                font-size: 16px;
+                            }
+                            .title {
+                                color: blue;
+                                font-weight: 900;
+                                font-size: 48px;
+                            }
+                            .text {
+                                color: #555555;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 30px;
+                            }
+                            .btn {
+                                // display: block;
+                                color: #111111;
+                                font-weight: 600;
+                                font-size: 20px;
+                                height: 75px;
+                                line-height: 30px;
+                                width: 188px;
+                                border-width: 2px;
+                                background-color: #fff;
+                            }
+                        }
+                        .right {
+                            flex-basis: 50%;
+                            // height: 519px;
+                            // width: 354px;
+                        }
+                    }
+                }
+                /* Hero end ============== */
+                /* Upsell start ============== */
+                
+                .container {
+                    .upsell {
+                        // border: 5px solid black;
+                        background: url('../img/background.svg') no-repeat;
+                        height: 326px;
+                        h2 {
+                            font-weight: 500;
+                            font-size: 40px;
+                            padding-left: 2rem;
+                            padding-top: 2rem;
+                        }
+                        p {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 30px;
+                            padding-left: 2rem;
+                        }
+                        // background: url('../img/background.svg') no-repeat center center fixed;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        // background-position: left top;
+                        // height: 326px;
+                        // width: auto;
+                        // max-width: 100%;
+                        // max-height: 100%
+                        /* Upsell end ============== */
+                        // .main-nav__item:nth-child(4) {
+                        //     color: #ff3998
+                        // }
+                    }
+                }
+                
+                @import 'responsive';
