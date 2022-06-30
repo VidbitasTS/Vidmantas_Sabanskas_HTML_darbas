@@ -8,4 +8,26 @@
     .burger {
         display: none;
     }
+    .container {
+        padding: 70px 80px 0 80px;
+    }
+    .hero .container {
+        .left {
+            .title {
+                font-weight: 900;
+                color: black;
+            }
+        }
+        .right {
+            // display: inline;
+            // position: absolute;
+            // left: 500px;
+            .img {
+                // position: absolute;
+                // left: 500px;
+            }
+        }
+    }
 }
+
+@media screen and (min-width: 610px) {}
