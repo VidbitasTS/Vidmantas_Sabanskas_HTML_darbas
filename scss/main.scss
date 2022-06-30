@@ -8,6 +8,7 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 @import 'reset';
 @import 'common';
 
@@ -22,12 +23,28 @@ body {
 }
 
 .header {
-    background-color: #fff;
-    top: 0;
+    // background-color: green;
+    // top: 0;
+    // left: 80px;
+    // top: 70px;
+    // height: 36px;
     .container {
-        align-items: center;
+        // background-color: red;
+        // align-items: center;
+        // display: flex;
+        // justify-content: space-between;
+        // padding-top: 80px;
+        // padding-left: 70px;
+        // left: 80px;
+        // top: 70px;
+        // height: 36px;
         display: flex;
+        flex-direction: row;
+        // justify-content: flex-end;
         justify-content: space-between;
+        align-items: center;
+        // padding: 0px;
+        gap: 28px;
     }
 }
 
@@ -40,6 +57,12 @@ body {
     color: #999999;
     height: 24px;
     width: 24px;
+}
+
+.main-nav {
+    display: inline-block;
+    right: 80px;
+    left: 100px;
 }
 
 .main-nav__item {

@@ -3,6 +3,7 @@
 /* Failu importai */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 /* reset ==================================== */
 * {
   box-sizing: border-box;
@@ -10,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #EEEEEE;
 }
 
@@ -37,7 +38,7 @@ p {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 70px 80px;
 }
 
 /* Header start ============== */
@@ -49,14 +50,12 @@ body {
   padding-bottom: 1000px;
 }
 
-.header {
-  background-color: #fff;
-  top: 0;
-}
 .header .container {
-  align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  gap: 28px;
 }
 
 .logo {
@@ -68,6 +67,12 @@ body {
   color: #999999;
   height: 24px;
   width: 24px;
+}
+
+.main-nav {
+  display: inline-block;
+  right: 80px;
+  left: 100px;
 }
 
 .main-nav__item {
