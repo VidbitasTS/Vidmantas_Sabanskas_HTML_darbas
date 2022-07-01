@@ -107,15 +107,27 @@ p {
 }
 .hero .left .btn {
   color: #111111;
-  font-weight: 600;
   font-size: 20px;
   height: 75px;
-  line-height: 30px;
   width: 188px;
-  border-width: 2px;
-  background-color: #fff;
+  border-radius: 100rem;
+  padding: 1rem;
+  padding: 0.5rem 3rem;
+  color: black;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(0deg, #FF8139, #FF8139, #FF8139, rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  border-radius: 100px;
 }
-.hero .right {
+.hero .left .btn:hover {
+  box-shadow: none;
+  color: white;
+}
+
+.right {
   position: absolute;
   left: 80%;
   transform: translate(-80%, 0);
@@ -126,6 +138,7 @@ p {
 .upsell {
   background: url("../img/background.svg") no-repeat;
   height: 326px;
+  margin-bottom: 150px;
   /* Upsell end ============== */
 }
 .upsell h2 {
@@ -141,6 +154,18 @@ p {
   padding-left: 2rem;
 }
 
+/* Social start ============== */
+.soc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.soc .icon {
+  width: 160px;
+  height: 36px;
+}
+
+/* Social end ============== */
 /* Bottom responsive import ==================================== */
 @media screen and (min-width: 428px) {
   .main-nav__item {
