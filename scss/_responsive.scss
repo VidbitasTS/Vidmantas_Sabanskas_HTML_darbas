@@ -1,24 +1,14 @@
 /* Bottom responsive import ==================================== */
 
 @media screen and (min-width: 428px) {
-    .main-nav__item {
-        display: inline-block;
-        padding: 0.5em 1em;
-    }
-    .burger {
-        display: none;
-    }
-    .container {
-        padding: 0 32px;
-    }
-    .hero .container {
-        .left {
-            .title {
-                font-weight: 900;
-                // color: black;
+    .header {
+        .main-nav {
+            .main-nav__item {
+                display: inline-block;
+            }
+            .burger {
+                display: none;
             }
         }
     }
 }
-
-@media screen and (min-width: 610px) {}
