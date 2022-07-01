@@ -129,12 +129,16 @@ p {
   box-shadow: 2px 1000px 1px #fff inset;
   border-radius: 100px;
 }
+.hero .right {
+  position: relative;
+}
 .hero .right .img {
+  position: absolute;
   height: 519px;
   width: 354px;
   min-width: 175px;
   min-height: 278px;
-  float: 100px;
+  left: 200px;
 }
 
 /* Hero end ============== */
