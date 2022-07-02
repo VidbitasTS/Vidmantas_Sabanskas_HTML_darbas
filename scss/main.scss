@@ -52,7 +52,7 @@
     flex-direction: row;
     justify-content: space-between;
     // align-items: center;
-    margin-bottom: 182px;
+    padding-bottom: 182px;
     .left {
         // width: 620px;
         // height: 232px;
@@ -134,8 +134,95 @@
 /* Press start ============== */
 
 .press {
+    padding-bottom: 120px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+}
+
+
+/* Showcase ============== */
+
+.showcase {
+    .cards {
+        display: flex;
+        gap: 20px;
+        .card {
+            width: 290px;
+            // height: 400px;
+            background-color: #EEEEEE;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+            border-color: #EEEEEE;
+            border-radius: 16px;
+            // border: none;
+            .c-img {
+                // padding-bottom: 24px;
+            }
+            .c-info {
+                // width: 22.5%;
+                // padding: 24px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                // row-gap: 24px;
+                // column-gap: 24px;
+                // gap: 24px;
+                .left {
+                    padding: 24px 12px 24px 24px;
+                    h4 {
+                        color: #FF8139;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 12px;
+                        padding-bottom: 12px;
+                    }
+                    h3 {
+                        color: #111111;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 20px;
+                        padding-bottom: 12px;
+                    }
+                    p {
+                        color: #777777;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 18px;
+                    }
+                }
+                .right {
+                    padding: 24px 24px 24px 12px;
+                    text-align: right;
+                    h4 {
+                        color: #777777;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 12px;
+                    }
+                    img {
+                        width: 13px;
+                        height: 22px;
+                        // right: 120px;
+                        // top: 81%;
+                        // bottom: 13.5%;
+                    }
+                    h3 {
+                        display: inline;
+                        color: #111111;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
+                    p {
+                        padding-top: 12px;
+                        color: #777777;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @import '_responsive';

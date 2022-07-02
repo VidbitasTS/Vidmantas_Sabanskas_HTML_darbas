@@ -85,7 +85,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 182px;
+  padding-bottom: 182px;
 }
 .hero .left {
   flex-basis: 68%;
@@ -147,8 +147,78 @@ p {
 
 /* Press start ============== */
 .press {
+  padding-bottom: 120px;
   display: flex;
   justify-content: space-between;
+}
+
+/* Showcase ============== */
+.showcase .cards {
+  display: flex;
+  gap: 20px;
+}
+.showcase .cards .card {
+  width: 290px;
+  background-color: #EEEEEE;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-color: #EEEEEE;
+  border-radius: 16px;
+}
+.showcase .cards .card .c-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.showcase .cards .card .c-info .left {
+  padding: 24px 12px 24px 24px;
+}
+.showcase .cards .card .c-info .left h4 {
+  color: #FF8139;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  padding-bottom: 12px;
+}
+.showcase .cards .card .c-info .left h3 {
+  color: #111111;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  padding-bottom: 12px;
+}
+.showcase .cards .card .c-info .left p {
+  color: #777777;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+.showcase .cards .card .c-info .right {
+  padding: 24px 24px 24px 12px;
+  text-align: right;
+}
+.showcase .cards .card .c-info .right h4 {
+  color: #777777;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+}
+.showcase .cards .card .c-info .right img {
+  width: 13px;
+  height: 22px;
+}
+.showcase .cards .card .c-info .right h3 {
+  display: inline;
+  color: #111111;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+.showcase .cards .card .c-info .right p {
+  padding-top: 12px;
+  color: #777777;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 /* Bottom responsive import ==================================== */
