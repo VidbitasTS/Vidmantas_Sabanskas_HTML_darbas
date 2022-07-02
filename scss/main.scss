@@ -61,7 +61,8 @@
             color: #FF3998;
             font-weight: 700;
             font-size: 16px;
-            line-height: 19.36px;
+            // line-height: 19.36px;
+            line-height: 100%;
             padding-bottom: 24px;
             text-transform: uppercase;
         }
@@ -69,7 +70,8 @@
             color: #111111;
             font-weight: 900;
             font-size: 96px;
-            line-height: 116.18px;
+            // line-height: 116.18px;
+            line-height: 100%;
             margin: 0;
             padding-bottom: 32px;
         }
@@ -77,13 +79,15 @@
             width: 537px;
             font-weight: 400;
             font-size: 20px;
-            line-height: 30px;
+            // line-height: 30px;
+            line-height: 100%;
             color: #555555
         }
         .btn {
             font-weight: 600;
             font-size: 20px;
-            line-height: 30px;
+            // line-height: 30px;
+            line-height: 100%;
             text-align: center;
             color: #111111;
             height: 75px;
@@ -94,8 +98,13 @@
     }
     .right {
         align-content: center;
+        position: relative;
         .img {
-            // min-width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: auto;
             // width: 1440px;
             // position: relative;
             // width: 354px;
@@ -125,7 +134,8 @@
             color: #111111;
             font-weight: 500;
             font-size: 40px;
-            line-height: 48.41px
+            // line-height: 48.41px
+            line-height: 100%;
         }
     }
 }
@@ -143,6 +153,10 @@
 /* Showcase ============== */
 
 .showcase {
+    padding-bottom: 120px;
+    .text {
+        padding-bottom: 56px;
+    }
     .cards {
         display: flex;
         gap: 20px;
@@ -172,21 +186,24 @@
                         color: #FF8139;
                         font-weight: 500;
                         font-size: 12px;
-                        line-height: 12px;
+                        // line-height: 12px;
+                        line-height: 100%;
                         padding-bottom: 12px;
                     }
                     h3 {
                         color: #111111;
                         font-weight: 500;
                         font-size: 20px;
-                        line-height: 20px;
+                        // line-height: 20px;
+                        line-height: 100%;
                         padding-bottom: 12px;
                     }
                     p {
                         color: #777777;
                         font-weight: 400;
                         font-size: 18px;
-                        line-height: 18px;
+                        // line-height: 18px;
+                        line-height: 100%;
                     }
                 }
                 .right {
@@ -196,7 +213,8 @@
                         color: #777777;
                         font-weight: 500;
                         font-size: 12px;
-                        line-height: 12px;
+                        // line-height: 12px;
+                        line-height: 100%;
                     }
                     img {
                         width: 13px;
@@ -210,14 +228,16 @@
                         color: #111111;
                         font-weight: 500;
                         font-size: 20px;
-                        line-height: 20px;
+                        // line-height: 20px;
+                        line-height: 100%;
                     }
                     p {
                         padding-top: 12px;
                         color: #777777;
                         font-weight: 400;
                         font-size: 18px;
-                        line-height: 18px;
+                        // line-height: 18px;
+                        line-height: 100%;
                     }
                 }
             }
