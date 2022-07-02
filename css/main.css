@@ -47,7 +47,7 @@ p {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
   border-radius: 16px;
   border: none;
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 70px 80px;
 }
@@ -95,6 +95,8 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 19.36px;
+  padding-bottom: 24px;
+  text-transform: uppercase;
 }
 .hero .left .title {
   color: #111111;
@@ -122,21 +124,31 @@ p {
   border-radius: 50px;
   background-color: #fff;
 }
+.hero .right {
+  align-content: center;
+}
 /* Upsell start ============== */
 .upsell {
-  background: url("../img/background.svg") no-repeat center center;
-  background-size: cover;
+  background: url("../img/background.svg") no-repeat;
+  background-position: center;
   height: 320px;
+  padding-bottom: 120px;
 }
 .upsell .text {
   padding-top: 154px;
-  padding-left: 64px;
+  padding-left: 144px;
 }
 .upsell .text h2 {
   color: #111111;
   font-weight: 500;
   font-size: 40px;
   line-height: 48.41px;
+}
+
+/* Press start ============== */
+.press {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Bottom responsive import ==================================== */
