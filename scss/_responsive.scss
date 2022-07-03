@@ -11,4 +11,20 @@
             }
         }
     }
+    .hero {
+        width: 50%;
+        .left {
+            // width: 620px;
+            // height: 232px;
+            flex-basis: 50%;
+        }
+        .right {
+            img {
+                width: 50%;
+                margin: 0px auto;
+                display: block;
+                height: auto;
+            }
+        }
+    }
 }

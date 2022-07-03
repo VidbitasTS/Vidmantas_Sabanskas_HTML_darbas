@@ -91,7 +91,7 @@ p {
   color: #FF3998;
   font-weight: 700;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 19.36px;
   padding-bottom: 24px;
   text-transform: uppercase;
 }
@@ -99,7 +99,7 @@ p {
   color: #111111;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100%;
+  line-height: 116.18px;
   margin: 0;
   padding-bottom: 32px;
 }
@@ -107,8 +107,9 @@ p {
   width: 537px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 100%;
+  line-height: 30px;
   color: #555555;
+  padding-bottom: 41px;
 }
 .hero .left .btn {
   font-weight: 600;
@@ -122,15 +123,14 @@ p {
   background-color: #fff;
 }
 .hero .right {
-  display: block;
   align-content: center;
+  position: absolute;
 }
 .hero .right .img {
-  top: -150px;
-  left: 650px;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
+  position: relative;
+  top: -100px;
+  left: 630px;
+  width: 80%;
 }
 
 /* Upsell start ============== */
@@ -171,9 +171,7 @@ p {
   gap: 20px;
 }
 .showcase .cards .card {
-  width: 290px;
   background-color: #EEEEEE;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
   border-color: #EEEEEE;
   border-radius: 16px;
 }
@@ -240,5 +238,18 @@ p {
   }
   .header .main-nav .burger {
     display: none;
+  }
+
+  .hero {
+    width: 50%;
+  }
+  .hero .left {
+    flex-basis: 50%;
+  }
+  .hero .right img {
+    width: 50%;
+    margin: 0px auto;
+    display: block;
+    height: auto;
   }
 }/*# sourceMappingURL=main.css.map */
