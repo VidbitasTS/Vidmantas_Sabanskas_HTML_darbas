@@ -1,0 +1,34 @@
+/* Bottom responsive import ==================================== */
+
+@media screen and (min-width: 428px) {
+    .container {
+        // padding: 32px;
+    }
+    .header {
+        // width: 364px;
+        .main-nav {
+            .main-nav__item {
+                display: inline-block;
+            }
+            .burger {
+                display: none;
+            }
+        }
+    }
+    .hero {
+        // width: 50%;
+        .left {
+            // width: 620px;
+            // height: 232px;
+            // flex-basis: 50%;
+        }
+        .right {
+            img {
+                width: 100%;
+                // margin: 0px auto;
+                // display: block;
+                // height: auto;
+            }
+        }
+    }
+}
