@@ -15,11 +15,6 @@ html {
 }
 
 body {
-  margin: 0;
-  background-color: white;
-  font-family: "Inter", sans-serif;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
-  border-radius: 16px;
   padding-bottom: 1000px;
 }
 
@@ -127,15 +122,15 @@ p {
   background-color: #fff;
 }
 .hero .right {
+  display: block;
   align-content: center;
-  position: relative;
 }
 .hero .right .img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
+  top: -150px;
+  left: 650px;
+  max-width: 100%;
   height: auto;
+  margin-left: auto;
 }
 
 /* Upsell start ============== */
@@ -172,6 +167,7 @@ p {
 }
 .showcase .cards {
   display: flex;
+  flex-direction: row;
   gap: 20px;
 }
 .showcase .cards .card {
@@ -184,7 +180,6 @@ p {
 .showcase .cards .card .c-info {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 .showcase .cards .card .c-info .left {
   padding: 24px 12px 24px 24px;
