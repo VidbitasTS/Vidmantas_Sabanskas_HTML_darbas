@@ -7,7 +7,8 @@
 /* Failu importai */
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+// @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 @import 'reset';
 @import 'fonts';
 @import 'common';
@@ -88,8 +89,8 @@
         .btn {
             font-weight: 600;
             font-size: 20px;
-            // line-height: 30px;
-            line-height: 100%;
+            line-height: 30px;
+            // line-height: 100%;
             text-align: center;
             color: #111111;
             height: 75px;
@@ -108,6 +109,8 @@
             top: -4rem;
             left: 630px;
             width: 80%;
+            height: 100%;
+            padding-bottom: 200px;
             // background: transparent;
             // width: 100%;
             // height: 90%;
@@ -337,6 +340,52 @@
         border-bottom: 2px solid #EEEEEE;
         // padding-bottom: 120px;
         margin-bottom: 120px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .left {
+            .logo img {
+                width: 12.375rem;
+                height: 2.25rem;
+                padding-bottom: 1.875rem;
+            }
+            p {
+                margin: 0.2rem;
+                padding-bottom: 2rem;
+            }
+            .social i {
+                padding-right: 0.5rem;
+            }
+        }
+        .right {
+            div p:nth-child(1) {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19.36px;
+                color: #555555;
+                padding-bottom: 28px;
+                margin: 0;
+                letter-spacing: 10%;
+            }
+            a {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 20px;
+                color: #555555;
+            }
+            display: flex;
+            gap:100px;
+            padding-bottom: 123px;
+        }
+    }
+    .bottom {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        display: flex;
+        justify-content: space-between
     }
 }
 

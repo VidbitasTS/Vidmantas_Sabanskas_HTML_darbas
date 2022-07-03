@@ -2,7 +2,7 @@
 /* Kintamieji */
 /* Failu importai */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 /* reset ==================================== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 html {
@@ -114,7 +114,7 @@ p {
 .hero .left .btn {
   font-weight: 600;
   font-size: 20px;
-  line-height: 100%;
+  line-height: 30px;
   text-align: center;
   color: #111111;
   height: 75px;
@@ -130,6 +130,8 @@ p {
   top: -4rem;
   left: 630px;
   width: 80%;
+  height: 100%;
+  padding-bottom: 200px;
 }
 
 /* Upsell start ============== */
@@ -293,6 +295,50 @@ p {
   padding: 0;
   border-bottom: 2px solid #EEEEEE;
   margin-bottom: 120px;
+}
+.footer .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer .flex .left .logo img {
+  width: 12.375rem;
+  height: 2.25rem;
+  padding-bottom: 1.875rem;
+}
+.footer .flex .left p {
+  margin: 0.2rem;
+  padding-bottom: 2rem;
+}
+.footer .flex .left .social i {
+  padding-right: 0.5rem;
+}
+.footer .flex .right {
+  display: flex;
+  gap: 100px;
+  padding-bottom: 123px;
+}
+.footer .flex .right div p:nth-child(1) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #555555;
+  padding-bottom: 28px;
+  margin: 0;
+  letter-spacing: 10%;
+}
+.footer .flex .right a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #555555;
+}
+.footer .bottom {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Bottom responsive import ==================================== */
